@@ -7,7 +7,10 @@
     padding: auto;
 }
 
+/*NavBar*/
 .navbar{
+    display: flex;
+    justify-content: space-around;
     margin: 10px;
     background-color: pink;
     height: auto;
@@ -51,9 +54,9 @@
 }
 .title{
     margin-top: 100px;
-font-size: 50px;
+    font-size: 50px;
 }
-
+/*Main-Container*/
 .main-container{
     display: flex;
     flex-direction: column;
@@ -64,6 +67,8 @@ font-size: 50px;
 .main-container>img{
     border-radius: 10px;
 }
+
+/*HOVER EffECTS*/
 .dropdown:hover .dropdown-content{
     display: block;
 }
