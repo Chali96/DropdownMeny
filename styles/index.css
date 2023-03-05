@@ -49,7 +49,21 @@
     display: block;
     
 }
+.title{
+    margin-top: 100px;
+font-size: 50px;
+}
 
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    gap: 10px;
+}
+
+.main-container>img{
+    border-radius: 10px;
+}
 .dropdown:hover .dropdown-content{
     display: block;
 }
